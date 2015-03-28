@@ -1,0 +1,57 @@
+@font-face{
+	font-family: "OpenSans";
+/*	src: url(../fonts/OpenSans-Bold.ttf) format("truetype");
+	src: url(../fonts/OpenSans-BoldItalic.ttf) format("truetype");
+	src: url(../fonts/OpenSans-ExtraBold.ttf) format("truetype");
+	src: url(../fonts/OpenSans-ExtraBoldItalic.ttf) format("truetype");
+	src: url(../fonts/OpenSans-Italic.ttf) format("truetype");
+	src: url(../fonts/OpenSans-Light.ttf) format("truetype");
+	src: url(../fonts/OpenSans-LightItalic.ttf) format("truetype");*/
+	src: url(../fonts/OpenSans-Regular.ttf) format("truetype");
+/*	src: url(../fonts/OpenSans-Semibold.ttf) format("truetype");
+	src: url(../fonts/OpenSans-SemiboldItalic.ttf) format("truetype");*/
+}
+body
+{
+	background: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	background: #ED8336;
+	font-family: "OpenSans";
+	height: 49px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+
+}
+header #lado1, #lado2
+{
+	display: inline-block;
+	vertical-align: top;
+}
+header #lado1
+{
+	width: 233px;
+}
+header #lado1 h2
+{
+	color: #fff;
+	font-family: "OpenSans";
+	font-weight: 200;
+	font-size: 21px;
+	letter-spacing: 1px;
+}
+header #lado2
+{
+	float: right;
+	margin-top: -4px;
+	width: 452px;
+}
+header #lado1 h2
+{
+	margin: 10px 10px 10px 10px;
+	padding: 0;
+}
