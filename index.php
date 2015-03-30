@@ -18,10 +18,19 @@
 <div id="lado1"><a href="/"><h2>Bigmarket.com</h2></a></div>
 <div id="lado2"><?php include("menu.html"); ?></div>
 </header>
+<div class="contene-busca">
+	<div id="conten1"><img src="images/carrito.jpg">
+		<form>
+			<span id="buscar"><span class="icon-buscar"></span></span>
+			<input type="text" placeholder="¿Que deseas Buscar?" required>
+
+		</form>
+	</div>
 
 
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="js/script-menu.js"></script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>

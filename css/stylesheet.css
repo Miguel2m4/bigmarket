@@ -11,15 +11,42 @@
 /*	src: url(../fonts/OpenSans-Semibold.ttf) format("truetype");
 	src: url(../fonts/OpenSans-SemiboldItalic.ttf) format("truetype");*/
 }
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-hgeswi');
+	src:url('../fonts/icomoon.eot?#iefix-hgeswi') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-hgeswi') format('woff'),
+		url('../fonts/icomoon.ttf?-hgeswi') format('truetype'),
+		url('../fonts/icomoon.svg?-hgeswi#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 body
 {
 	background: #f2f2f2;
+	font-family: "OpenSans";
 	margin: 0;
 	padding: 0;
 }
 header
 {
 	background: #ED8336;
+	border-bottom: 1px solid #D34709;
 	font-family: "OpenSans";
 	height: 49px;
 	margin: 0;
@@ -54,4 +81,68 @@ header #lado1 h2
 {
 	margin: 10px 10px 10px 10px;
 	padding: 0;
+}
+.contene-busca
+{
+	background: url(../images/bgsuper2.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+	margin: 0px auto 0px auto;
+	text-align: center;
+	width: 100%;
+}
+.contene-busca form
+{
+	display: block;
+	position: relative;
+}
+.icon-mas:before {
+	content: "\e600";
+}
+
+.icon-buscar:before {
+	content: "\f002";
+}
+#buscar
+{
+	margin: 0px 10px 0px 15px;
+	line-height: 46px;
+	color: #555;
+	position: absolute;
+}
+#conten1
+{
+	margin: 0px auto 0px auto;
+	padding-top:75px;
+	width: 90%;
+}
+#conten1 img
+{
+	width: 250px;
+}
+#conten1 input[type=text]
+{
+	border-radius: 0.3em;
+	border: 1px solid #f2f2f2;
+	color: #333;
+	font-family: "OpenSans";
+	height: 39px;
+	padding: 0px 10px 0px 45px ;
+	width: 60%;
+
+}
+
+
+@media screen and (max-width: 800px){
+
+header #lado1
+{
+	display: none;
+}
+header #lado2
+{
+	width: 100%;
+}
 }
