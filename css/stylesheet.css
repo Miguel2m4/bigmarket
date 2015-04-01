@@ -38,10 +38,18 @@
 
 body
 {
-	background: #f2f2f2;
+	background: #fff;
 	font-family: "OpenSans";
 	margin: 0;
 	padding: 0;
+}
+hr 
+{
+  border: solid #dddddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 1.25rem 0 1.1875rem;
+  height: 0;
 }
 header
 {
@@ -98,6 +106,54 @@ header #lado1 h2
 	display: block;
 	position: relative;
 }
+.contenido1
+{
+	font-family: "OpenSans";
+	/*padding: 0.8em 0.8em 0.8em 0.8em;*/
+	margin: 0px auto 0px auto;
+	text-align: center;
+	width: 100%;
+}
+.contenido1 .categoria
+{
+	display: inline-block;
+	font-family: "OpenSans";
+	vertical-align: top;
+	padding: 0px 1.5em 0px 1.5em;
+}
+.contenido1 .categoria p
+{
+	color: #333;
+	text-align: left;
+	font-size: 22px;
+	font-weight: 300;
+}
+.contenido1 h2
+{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.contenido1 input[type=submit]
+{
+	background: #FFED05;
+	border: none;
+	border: 1px solid #A9A201;
+	border-radius: 0.4em;
+	color: #453115;
+	font-weight: 200;
+	padding: 0.8em;
+	/*text-transform: uppercase;*/
+}
+.contenido1 input[type=submit]:hover
+{
+	background: #EDDC03;
+}
+.divi1 {
+  margin-bottom: 40px;
+  text-align: center;
+  margin: 0px auto 0px auto;
+  width: 80%;
+}
 .icon-mas:before {
 	content: "\e600";
 }
@@ -105,6 +161,7 @@ header #lado1 h2
 .icon-buscar:before {
 	content: "\f002";
 }
+
 #buscar
 {
 	margin: 0px 10px 0px 15px;

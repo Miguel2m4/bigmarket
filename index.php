@@ -23,14 +23,51 @@
 	<div id="tituli"><img src="images/titulo.png"></div>
 		<form>
 			<span id="buscar"><span class="icon-buscar"></span></span>
-			<input type="text" placeholder="¿Que deseas Buscar?" required>
+			<input type="text" placeholder="¿Qué deseas Buscar?" required>
 
 		</form>
 	</div>
+</div>
+<div class="contenido1">
+<h2>Selecciona la categoría </h2>
+<form>
+<div class="categoria">
+<p><input type="checkbox" name="viveres" value="viveres"> Viveres y Abarrotes </p>
+</div>
+<div class="categoria">
+<p><input type="checkbox" name="viveres" value="viveres"> Carnicos </p>
+</div>
+<div class="categoria">
+<p><input type="checkbox" name="viveres" value="viveres"> Pollo </p>
+</div>
+<div class="categoria">
+<p><input type="checkbox" name="viveres" value="viveres"> Pescaderia</p>
+</div>
+<div class="categoria">
+<p> <input type="checkbox" name="viveres" value="viveres"> Salsamentaria</p>
+</div>
+<div class="categoria">
+<p><input type="checkbox" name="viveres" value="viveres"> Aseo industrial</p>
+</div>
+<div class="categoria">
+<p><input type="checkbox" name="viveres" value="viveres"> Rancho y Licores</p>
+</div>
+<div>
+<input type="submit" value="Buscar ahora!">
+</div>
+
+</form>
+
+</div>
+
+
+
 
 
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="js/script-menu.js"></script>
+
+
 </body>
 </html>
