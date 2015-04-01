@@ -10,14 +10,14 @@ a {text-decoration: none;}
 }
 .toggleMenu {
     display:  none;
-    background: #ED8336;
+    background: #a3070a;
     padding: 10px 15px;
     color: #fff;
 }
 .nav {
     list-style: none;
      *zoom: 1;
-     background:#ED8336;
+     background:#a3070a;
 }
 .nav:before,
 .nav:after {

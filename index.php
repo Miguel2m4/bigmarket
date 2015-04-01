@@ -19,7 +19,8 @@
 <div id="lado2"><?php include("menu.html"); ?></div>
 </header>
 <div class="contene-busca">
-	<div id="conten1"><img src="images/carrito.jpg">
+	<div id="conten1"><img src="images/carrito.png">
+	<div id="tituli"><img src="images/titulo.png"></div>
 		<form>
 			<span id="buscar"><span class="icon-buscar"></span></span>
 			<input type="text" placeholder="¿Que deseas Buscar?" required>

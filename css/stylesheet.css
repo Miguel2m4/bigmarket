@@ -45,8 +45,8 @@ body
 }
 header
 {
-	background: #ED8336;
-	border-bottom: 1px solid #D34709;
+	background: #a3070a;
+	border-bottom: 1px solid #930707;
 	font-family: "OpenSans";
 	height: 49px;
 	margin: 0;
@@ -118,6 +118,10 @@ header #lado1 h2
 	padding-top:75px;
 	width: 90%;
 }
+#conten1 #tituli img
+{
+	width: 496px !important;
+}
 #conten1 img
 {
 	width: 250px;
@@ -144,5 +148,9 @@ header #lado1
 header #lado2
 {
 	width: 100%;
+}
+#conten1 #tituli img
+{
+	width: 250px !important;
 }
 }
