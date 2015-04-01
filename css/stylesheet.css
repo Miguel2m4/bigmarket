@@ -90,6 +90,21 @@ header #lado1 h2
 	margin: 10px 10px 10px 10px;
 	padding: 0;
 }
+footer
+{
+	color: #fff;
+	background: #341408;
+	margin: 0px auto 0px auto;
+	text-align: center;
+}
+footer hr
+{
+	border: solid #4A331C; 
+	border-width: 1px 0 0;
+	clear: both;
+	margin: 1.25rem 0 1.1875rem;
+	height: 0;
+}
 .contene-busca
 {
 	background: url(../images/bgsuper2.jpg);
@@ -110,7 +125,7 @@ header #lado1 h2
 {
 	font-family: "OpenSans";
 	/*padding: 0.8em 0.8em 0.8em 0.8em;*/
-	margin: 0px auto 0px auto;
+	margin: 0px auto 2em auto;
 	text-align: center;
 	width: 100%;
 }
@@ -135,24 +150,65 @@ header #lado1 h2
 }
 .contenido1 input[type=submit]
 {
-	background: #FFED05;
+	background: #A3070A;
 	border: none;
-	border: 1px solid #A9A201;
-	border-radius: 0.4em;
-	color: #453115;
+	border-radius: 0.3em;
+	border-bottom: 5px solid #820608;
+	color: #fff;
 	font-weight: 200;
 	padding: 0.8em;
+	-webkit-transition: .4s;
 	/*text-transform: uppercase;*/
 }
 .contenido1 input[type=submit]:hover
 {
-	background: #EDDC03;
+	background: #5f0406;
+	border-bottom: 5px solid #5f0406;
 }
 .divi1 {
   margin-bottom: 40px;
   text-align: center;
   margin: 0px auto 0px auto;
   width: 80%;
+}
+.footersec
+{
+	display: inline-block;
+	margin: 0px auto 0px auto;
+	padding: 0.8em;
+	vertical-align: top;
+	width: 25%;
+	
+}
+.footersec p
+{
+	color: #fff;
+	font-weight: 300;
+	font-size: 14px;
+	text-align: left;
+}
+.footersec h2
+{
+	color: #fff;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+.footersec input[type=email]
+{
+	display: block;
+	padding: 0.2em;
+	width: 80%;
+	margin-bottom: 0.8em;
+
+}
+.footersec input[type=submit]
+{
+	border:none;
+	border-radius: 0.2em;
+	float: left;
+	padding: 0.5em;
 }
 .icon-mas:before {
 	content: "\e600";
@@ -194,7 +250,27 @@ header #lado1 h2
 	width: 60%;
 
 }
-
+#copyright img
+{
+	width: 70px;
+	padding-bottom: 0.5em;
+}
+#copyright
+{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	text-shadow: 0.01em 0.08em #002c27;
+}
+#copyright p
+{
+	margin-top: 19px;
+}
+#copyright a
+{
+	color: #fff;
+}
 
 @media screen and (max-width: 800px){
 
@@ -205,6 +281,10 @@ header #lado1
 header #lado2
 {
 	width: 100%;
+}
+.contenido1 .categoria p
+{
+	text-align: left !important;
 }
 #conten1 #tituli img
 {

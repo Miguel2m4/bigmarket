@@ -64,10 +64,39 @@
 
 
 
+<footer>
+<div id="foot">
+<div class="footersec">
+	<h2>Información de contacto</h2>
+	<p><strong>Email:</strong> correo@bigmarketmayorista.com</p>
+	<p><strong>Telefono:</strong> (8) 684 48 40</p>
+	<p><strong>Celular:</strong> +57 311 499 82 55 - 313 221 68 73</p>
+	<p><strong>Dirección:</strong> Calle 31 No 16A - 04 B - La Ceiba</p>
+</div>
 
+<div class="footersec">
+	<h2>Deseas recibir mas Información</h2>
+	<p>Ingresa tu correo para recibir mas informacion</p><p>acerca de novedades en nuestros productos.</p>
+	<form>
+		<input type="email" placeholder="Email" required>
+		<input type="submit" value="Enviar">
+	</form>
+</div>
+
+<div class="footersec">
+	
+</div>
+	<hr class="divi1">
+	<div id="copyright">
+            <p>Copyright © Bigmarket.com SAS, 2015.Todos los derechos reservados diseñado por <a href="http://inngeniate.com/" target="blank"> Inngeniate.com</a></p>
+            <div id="logo">
+                <img src="images/logoinn.png">
+            </div>
+        </div>
+        </div>
+</footer>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="js/script-menu.js"></script>
-
 
 </body>
 </html>
