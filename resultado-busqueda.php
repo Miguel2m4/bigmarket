@@ -21,6 +21,7 @@
 <div class="principal">
 <div id="busca">
 	<form>
+		<span id="buscar2"><span class="icon-buscar"></span></span>
 		<input type="text" placeholder="¿Qué deseas buscar?">
 	</form>
 </div>
@@ -53,7 +54,7 @@
 	<div class="imagen-pro">
 	</div>
 	<div class="contenido-pro">
-		<h2>Salsa Tartara - Heinz</h2>
+		<h2>Salsa Tartara - Heinz 250ml</h2>
 		<p> <input type="number" placeholder="Cant"> Paquete de 12 Unds</p>
 		<h3>$ 12.500</h3>
 		<p><a href="">Añadir al carrito</a></p>
@@ -65,7 +66,7 @@
 	<div class="imagen-pro">
 	</div>
 	<div class="contenido-pro">
-		<h2>Salsa Tartara - Heinz</h2>
+		<h2>Salsa Tartara - Heinz 250ml</h2>
 		<p> <input type="number" placeholder="Cant"> Paquete de 12 Unds</p>
 		<h3>$ 12.500</h3>
 		<p><a href="">Añadir al carrito</a></p>
@@ -77,7 +78,7 @@
 	<div class="imagen-pro">
 	</div>
 	<div class="contenido-pro">
-		<h2>Salsa Tartara - Heinz</h2>
+		<h2>Salsa Tartara - Heinz 250ml</h2>
 		<p> <input type="number" placeholder="Cant"> Paquete de 12 Unds</p>
 		<h3>$ 12.500</h3>
 		<p><a href="">Añadir al carrito</a></p>
@@ -89,7 +90,7 @@
 	<div class="imagen-pro">
 	</div>
 	<div class="contenido-pro">
-		<h2>Salsa Tartara - Heinz</h2>
+		<h2>Salsa Tartara - Heinz 250ml</h2>
 		<p> <input type="number" placeholder="Cant"> Paquete de 12 Unds</p>
 		<h3>$ 12.500</h3>
 		<p><a href="">Añadir al carrito</a></p>
@@ -101,7 +102,7 @@
 	<div class="imagen-pro">
 	</div>
 	<div class="contenido-pro">
-		<h2>Salsa Tartara - Heinz</h2>
+		<h2>Salsa Tartara - Heinz 250ml</h2>
 		<p> <input type="number" placeholder="Cant"> Paquete de 12 Unds</p>
 		<h3>$ 12.500</h3>
 		<p><a href="">Añadir al carrito</a></p>
@@ -113,7 +114,7 @@
 	<div class="imagen-pro">
 	</div>
 	<div class="contenido-pro">
-		<h2>Salsa Tartara - Heinz</h2>
+		<h2>Salsa Tartara - Heinz 250ml</h2>
 		<p> <input type="number" placeholder="Cant"> Paquete de 12 Unds</p>
 		<h3>$ 12.500</h3>
 		<p><a href="">Añadir al carrito</a></p>
