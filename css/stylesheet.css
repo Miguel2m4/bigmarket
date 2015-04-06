@@ -93,7 +93,7 @@ header #lado1 h2
 footer
 {
 	color: #fff;
-	background: #341408;
+	background: #301b18;
 	margin: 0px auto 0px auto;
 	text-align: center;
 }
@@ -122,6 +122,14 @@ footer hr
 	position: relative;
 }
 .contenido1
+{
+	font-family: "OpenSans";
+	/*padding: 0.8em 0.8em 0.8em 0.8em;*/
+	margin: 0px auto 2em auto;
+	text-align: center;
+	width: 100%;
+}
+.contenido2
 {
 	font-family: "OpenSans";
 	/*padding: 0.8em 0.8em 0.8em 0.8em;*/
@@ -164,6 +172,29 @@ footer hr
 {
 	background: #5f0406;
 	border-bottom: 5px solid #5f0406;
+}
+.contenido2 .catsegunda
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+}
+.contenido2 .catsegunda .pollo
+{
+	
+}
+.contenido2 .catsegunda a h2
+{
+	color: #301b18;
+	font-weight: 300;
+}
+.contenido2 .catsegunda h2:hover
+{
+	color: #bf0304;
+}
+.contenido2 .catsegunda img
+{
+	width: 180px;
 }
 .divi1 {
   margin-bottom: 40px;
@@ -285,6 +316,15 @@ header #lado2
 .contenido1 .categoria p
 {
 	text-align: left !important;
+}
+.contenido2 .catsegunda
+{
+	width: 90%;
+}
+.footersec
+{
+	text-align: center;
+	width: 90%;
 }
 #conten1 #tituli img
 {

@@ -55,9 +55,43 @@
 <div>
 <input type="submit" value="Buscar ahora!">
 </div>
-
 </form>
+</div>
 
+<hr class="divi1">
+
+<div class="contenido2">
+<h2>NUESTRAS EMPRESAS</h2>
+	<div class="catsegunda">
+		<a href=""><img src="images/ejemplo.png">
+		<h2>Vivieres y Abarrotes</h2></a>
+	</div>
+	<div class="catsegunda">
+		<a href=""><img src="images/ejemplo.png">
+		<h2>Cárnicos</h2></a>
+	</div>
+	<div class="catsegunda pollo">
+		<a href=""><img src="images/ejemplo.png" onmouseover="javascript:this.src='images/pollo.png';" 
+onmouseout="javascript:this.src='images/ejemplo.png';"/>
+		<h2>Pollo</h2></a>
+	</div>
+	<div class="catsegunda">
+		<a href=""><img src="images/ejemplo.png" onmouseover="javascript:this.src='images/pez.png';" 
+onmouseout="javascript:this.src='images/ejemplo.png';"/>
+		<h2>Pescadería</h2></a>
+	</div>
+	<div class="catsegunda">
+		<a href=""><img src="images/ejemplo.png">
+		<h2>Salsamentaría</h2></a>
+	</div>
+	<div class="catsegunda">
+		<a href=""><img src="images/ejemplo.png">
+		<h2>Aseo institucional</h2></a>
+	</div>
+	<div class="catsegunda">
+		<a href=""><img src="images/ejemplo.png">
+		<h2>Rancho y Licores</h2></a>
+	</div>
 </div>
 
 
