@@ -13,11 +13,11 @@
 }
 @font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot?auyqgv');
-	src:url('../fonts/icomoon.eot?#iefixauyqgv') format('embedded-opentype'),
-		url('../fonts/icomoon.woff?auyqgv') format('woff'),
-		url('../fonts/icomoon.ttf?auyqgv') format('truetype'),
-		url('../fonts/icomoon.svg?auyqgv#icomoon') format('svg');
+	src:url('../fonts/icomoon.eot?5v0ifs');
+	src:url('../fonts/icomoon.eot?#iefix5v0ifs') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?5v0ifs') format('woff'),
+		url('../fonts/icomoon.ttf?5v0ifs') format('truetype'),
+		url('../fonts/icomoon.svg?5v0ifs#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -262,6 +262,11 @@ footer hr
 .icon-borrar:before {
 	content: "\e602";
 }
+.icon-shopping-cart:before {
+	content: "\f07a"; 
+	padding-right: 0.5em;
+}
+
 .principal
 {
 	width: 100%;
