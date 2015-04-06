@@ -13,11 +13,11 @@
 }
 @font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot?-hgeswi');
-	src:url('../fonts/icomoon.eot?#iefix-hgeswi') format('embedded-opentype'),
-		url('../fonts/icomoon.woff?-hgeswi') format('woff'),
-		url('../fonts/icomoon.ttf?-hgeswi') format('truetype'),
-		url('../fonts/icomoon.svg?-hgeswi#icomoon') format('svg');
+	src:url('../fonts/icomoon.eot?auyqgv');
+	src:url('../fonts/icomoon.eot?#iefixauyqgv') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?auyqgv') format('woff'),
+		url('../fonts/icomoon.ttf?auyqgv') format('truetype'),
+		url('../fonts/icomoon.svg?auyqgv#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -104,6 +104,17 @@ footer hr
 	clear: both;
 	margin: 1.25rem 0 1.1875rem;
 	height: 0;
+}
+.carrito
+{
+	color: #fff;
+	background: #301b18;
+	display: none;
+}
+.carrito p
+{
+	padding: 0;
+	margin: 0;
 }
 .contene-busca
 {
@@ -242,13 +253,36 @@ footer hr
 	padding: 0.5em;
 }
 .icon-mas:before {
-	content: "\e600";
+	content: "\f05d";
 }
 
 .icon-buscar:before {
-	content: "\f002";
+	content: "\e601";
+}
+.icon-borrar:before {
+	content: "\e602";
+}
+.principal
+{
+	width: 100%;
+}
+.principal #busca
+{
+	background: #FF8024;
+	height: 60px;
 }
 
+.principal #busca input[type="text"]
+{
+	border: none;
+	border-radius: 0.3em;
+	color: #333;
+	font-family: "OpenSans";
+	height: 39px;
+	margin:5px 5px 5px 8px;
+	padding: 0px 10px 0px 45px;
+	width: 80%;
+}
 #buscar
 {
 	margin: 0px 10px 0px 15px;
@@ -302,6 +336,168 @@ footer hr
 {
 	color: #fff;
 }
+#lado-bus	
+{
+	margin: 0px auto 0px auto;
+	text-align: center;
+	width: 80%;
+}
+#lado-bus .produ
+{
+	border:1px solid #f2f2f2;
+	float: left;
+	margin: 0.5em;
+	width: 22%;
+	-webkit-transition: .4s;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.20);
+	-moz-box-shadow:    0px 3px 5px 0px rgba(50, 50, 50, 0.20);
+	box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.20);
+}
+#lado-bus .produ:hover
+{
+	-webkit-box-shadow: 0px 6px 5px 0px rgba(50, 50, 50, 0.20);
+	-moz-box-shadow:    0px 6px 5px 0px rgba(50, 50, 50, 0.20);
+	box-shadow:         0px 6px 5px 0px rgba(50, 50, 50, 0.20);
+}
+#lado-bus .produ .imagen-pro
+{
+	background: url(../images/galeria/ancheta2.jpg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 171px;
+	width: 100%;	
+}
+#lado-bus .produ .contenido-pro
+{
+	background: #f9f9f9;
+}
+#lado-bus .produ .contenido-pro input[type=number]
+{
+	height: 26px;
+    width: 45px;
+    border: none;
+    border: 1px solid #C8C4C4;
+    border-radius: 0.3em;
+    padding-left: 2px;
+}
+#lado-bus .produ .contenido-pro h2
+{
+	padding: 0.5em 0.5em 0em 0.5em;
+	margin-top: 0px;
+	text-align: left;
+}
+#lado-bus .produ .contenido-pro p
+{
+	font-size: 14px;
+	padding: 0em 0.5em 0em 0.6em;
+	text-align: left;
+}
+#lado-bus .produ .contenido-pro h3
+{
+	text-align: left;
+	margin: 0px;
+	padding: 0em 0.5em 0.5em 0.6em;
+}
+#lado-bus .produ .contenido-pro p a
+{
+	background: #FFD324;
+	border-bottom: 3px solid #EFC418;
+	border-radius: 0.3em;
+	color: #333;
+	text-align: center !important;
+	padding: 0.5em 0.8em 0.5em 0.8em;
+}
+#lado-bus .produ .contenido-pro p a:hover  
+{
+	background: #EFC418;
+}
+#lado-menu, #lado-bus
+{
+	display: inline-block;
+	vertical-align: top;
+}
+#lado-bus #tags
+{
+	text-align: left;
+	padding: 0.6em 0.5em 1.5em 0.5em;
+
+}
+#lado-bus #tags span
+{
+	font-size: 13px;
+	font-weight: 300;
+	margin-top: 5px !important;
+}
+#lado-bus #tags a
+{
+	background: #A3070A;
+	display: inline-block;
+	color: #fff;
+	padding: 0.3em;
+	border-radius: 0.3em;
+	-webkit-transition: .4s;
+	
+}
+#lado-bus #tags a:hover
+{
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.56);
+	-moz-box-shadow:    0px 1px 5px 0px rgba(50, 50, 50, 0.56);
+	box-shadow:         0px 1px 5px 0px rgba(50, 50, 50, 0.56);
+
+}
+#lado-menu
+{
+	background: #f9f9f9;
+	width: 18%;
+	height: 100%;
+	border-right: 1px solid #cbcbcb;
+	/*position: absolute;*/
+    /*top: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-shadow: none;
+    overflow: hidden;*/*/
+}
+
+#lado-menu #lateral
+{
+	
+}
+#lado-menu #lateral h2
+{
+	font-family: "OpenSans";
+	font-weight: 300;
+	padding-left: 0.8em;
+}
+#lado-menu #lateral ul
+{
+	margin: 0.8em 0em 0.8em 0em;
+	
+}
+#lado-menu #lateral ul a li
+{
+	border-bottom: 1px solid #cbcbcb;
+	padding: 0.5em 0em 0.5em 1em;
+	
+}
+#lado-menu #lateral ul a li:last-child
+{
+	/*border-bottom: 1px solid #fff;*/
+}
+#lado-menu #lateral ul a li 
+{
+	color: #333;
+
+}
+#lado-menu #lateral ul a li:hover
+{
+	font-weight: bold;
+	color: #a3070a;
+} 
 
 @media screen and (max-width: 800px){
 
