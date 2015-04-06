@@ -89,7 +89,8 @@ onmouseout="javascript:this.src='images/ejemplo.png';"/>
 		<h2>Aseo institucional</h2></a>
 	</div>
 	<div class="catsegunda">
-		<a href=""><img src="images/ejemplo.png">
+		<a href=""><img src="images/ejemplo.png" onmouseover="javascript:this.src='images/licor.png';" 
+onmouseout="javascript:this.src='images/ejemplo.png';"/>
 		<h2>Rancho y Licores</h2></a>
 	</div>
 </div>
