@@ -22,8 +22,9 @@
 <div id="busca">
 	<form>
 		<span id="buscar2"><span class="icon-buscar"></span></span>
-		<input type="text" placeholder="¿Qué deseas buscar?">
-	</form>
+		<input type="text" placeholder="¿Qué deseas buscar?"><span id="ubicacion-car"><a href=""><span class="icon-shopping-cart itemcarro"></span></a></span><span id="ped">Cant <span class="bgc">300</span></span><a href="" class="terminar-ped">Terminar Pedido</a>
+	</form>	
+	
 </div>
 <div class="carrito">
 	<p>muestra lo quelleva el carrito</p>
