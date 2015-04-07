@@ -109,7 +109,7 @@ footer hr
 {
 	color: #fff;
 	background: #301b18;
-	display: none;
+	/*display: none;*/
 }
 .carrito p
 {
@@ -277,7 +277,8 @@ footer hr
 .principal #busca
 {
 	background: #FF8024;
-	height: 60px;
+	height: 61px;
+	width: 100%;
 }
 .principal #busca #intem-carro
 {
@@ -290,9 +291,9 @@ footer hr
 	color: #333;
 	font-family: "OpenSans";
 	height: 39px;
-	margin:5px 5px 5px 8px;
+	margin:10px 5px 5px 8px;
 	padding: 0px 10px 0px 45px;
-	width: 73%;
+	width: 91%;
 }
 .terminar-ped
 {
@@ -323,6 +324,11 @@ footer hr
 	color: #555;
 	position: absolute;
 }
+#carrito-p
+{
+	right: 0px;
+	float: right;
+}
 #conten1
 {
 	margin: 0px auto 0px auto;
@@ -333,6 +339,7 @@ footer hr
 {
 	width: 496px !important;
 }
+
 #conten1 img
 {
 	width: 250px;
@@ -371,9 +378,10 @@ footer hr
 }
 #ubicacion-car
 {
+	color:#333;
 	  font-size: 39px;
 	  position: absolute;
-	  margin: 3px 10px 10px 10px;
+	  margin: -9px 10px 10px 10px;
 }
 #lado-bus	
 {
@@ -546,12 +554,28 @@ footer hr
 	color: #fff;
 	font-size: 16px;
 	margin-left: 58px;
+	  text-shadow: rgba(0,0,0,0.9) 1px 2px 2px;
 }
 #ped .bgc
 {
 	border-radius: 0.3em;
-	background: #934812;
+	background: #BE6626;
 	padding: 0.5em;
+}
+#sup-iz, #sup-der
+{
+	display: inline-block;
+}
+#sup-iz
+{
+	float: left;
+	width: 62%;
+}
+#sup-der
+{
+	float: right;
+	padding-top: 14px;
+	padding-right: 10px;
 }
 @media screen and (max-width: 800px){
 
@@ -580,4 +604,23 @@ header #lado2
 {
 	width: 250px !important;
 }
+#lado-menu 
+{
+	display: none;
+}
+#lado-bus 
+{
+	width: 100%;
+}
+#lado-bus .produ
+{
+	width: 47%;
+}
+}
+@media screen and (max-width: 620px){
+#lado-bus .produ
+{
+	width: 95%;
+}
+
 }

@@ -20,11 +20,13 @@
 </header>
 <div class="principal">
 <div id="busca">
+	<div id="sup-iz">
 	<form>
 		<span id="buscar2"><span class="icon-buscar"></span></span>
-		<input type="text" placeholder="¿Qué deseas buscar?"><span id="ubicacion-car"><a href=""><span class="icon-shopping-cart itemcarro"></span></a></span><span id="ped">Cant <span class="bgc">300</span></span><a href="" class="terminar-ped">Terminar Pedido</a>
-	</form>	
-	
+		<input type="text" placeholder="¿Qué deseas buscar?">
+	</form>		
+	</div>
+	<div id="sup-der"><span id="ubicacion-car"><a href=""><span class="icon-shopping-cart itemcarro"></span></a></span><span id="ped">Cant <span class="bgc">300</span></span><a href="" class="terminar-ped">Terminar Pedido</a></div>
 </div>
 <div class="carrito">
 	<p>muestra lo quelleva el carrito</p>
@@ -47,6 +49,7 @@
 </div>	
 </div>
 <div id="lado-bus">
+
 <div id="tags">
 	<a href="">Salsamentaria <span class="icon-borrar"></span></a> <a href=""> Carnicos <span class="icon-borrar"></span></a> <a href="">Pollo <span class="icon-borrar"></span></a>
 </div>
