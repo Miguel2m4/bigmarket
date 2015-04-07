@@ -28,6 +28,8 @@
 	</div>
 	<div id="sup-der"><span id="ubicacion-car"><a href=""><span class="icon-shopping-cart itemcarro"></span></a></span><span id="ped">Cant <span class="bgc">300</span></span><a href="" class="terminar-ped">Terminar Pedido</a></div>
 </div>
+<div class="carrito-terminar">
+</div>
 <div class="carrito">
 	<p>muestra lo quelleva el carrito</p>
 	<p>muestra lo quelleva el carrito</p>

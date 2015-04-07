@@ -111,6 +111,18 @@ footer hr
 	background: #301b18;
 	/*display: none;*/
 }
+.carrito-terminar
+{
+	color: #fff;
+	background: #301b18;
+	height: 50px;
+	
+}
+.carrito-terminar p
+{
+	padding: 0;
+	margin: 0;	
+}
 .carrito p
 {
 	padding: 0;
@@ -486,6 +498,7 @@ footer hr
 	display: inline-block;
 	color: #fff;
 	padding: 0.3em;
+	margin-top: 10px;
 	border-radius: 0.3em;
 	-webkit-transition: .4s;
 	
@@ -615,6 +628,20 @@ header #lado2
 #lado-bus .produ
 {
 	width: 47%;
+}
+#sup-iz 
+{
+  float: left;
+  width: 84%;
+}
+#sup-der 
+{
+	padding-top: 21px;
+}
+#lado-bus #tags 
+{
+  text-align: left;
+  padding: 0.2em 0.5em 1.5em 0.5em;
 }
 }
 @media screen and (max-width: 620px){
