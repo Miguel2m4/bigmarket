@@ -108,14 +108,15 @@ footer hr
 .carrito
 {
 	color: #fff;
-	background: #301b18;
-	/*display: none;*/
+	background: #f2f2f2;
+	display: none;
 }
 .carrito-terminar
 {
 	color: #fff;
-	background: #301b18;
+	background: #f2f2f2;
 	height: 50px;
+	display: none;
 	
 }
 .carrito-terminar p
@@ -288,7 +289,7 @@ footer hr
 }
 .principal #busca
 {
-	background: #FF8024;
+	background: #301b18;
 	height: 61px;
 	width: 100%;
 }
@@ -567,12 +568,12 @@ footer hr
 	color: #fff;
 	font-size: 16px;
 	margin-left: 58px;
-	  text-shadow: rgba(0,0,0,0.9) 1px 2px 2px;
+	  /*text-shadow: rgba(0,0,0,0.9) 1px 2px 2px;*/
 }
 #ped .bgc
 {
 	border-radius: 0.3em;
-	background: #BE6626;
+	/*background: #BE6626;*/
 	padding: 0.5em;
 }
 #sup-iz, #sup-der
@@ -613,6 +614,14 @@ header #lado2
 	text-align: center;
 	width: 90%;
 }
+.itemcarro
+{
+	color: #301b18;
+}
+.carrito-terminar
+{
+	display:block;
+}
 #conten1 #tituli img
 {
 	width: 250px !important;
@@ -624,6 +633,10 @@ header #lado2
 #lado-bus 
 {
 	width: 100%;
+}
+#ped
+{
+	color: #301b18;
 }
 #lado-bus .produ
 {
