@@ -21,6 +21,9 @@
 	<div id="lado2"><?php include("menu2.html"); ?></div>
 </nav>
 <section class="principal">
+<div class="submenu">
+	<a href=""><</a><a href="">Listar productos</a>
+</div>
 	<h2>Productos</h2>
 	<form class="forma">
 		<select required>
@@ -41,6 +44,103 @@
 		<br>
 		<input type="submit" value="Guardar">
 	</form>
+
+<div class="productos">
+	<form class="forma">
+	<p>Busqueda:</p>
+	<input type="text" placeholder="Nombre del Producto" required>
+	<select required>
+			<option value="">Seleccionar Distribuidor</option>
+			<option value="emp1">N Empresa 1</option>
+			<option value="emp2">N Empresa 2</option>
+	</select>
+	<input type="submit" value="Buscar">
+	</form>
+
+
+	<div class="tabla-pro">
+	<table>
+		<thead>
+			<tr>
+				<td>
+					Nombre
+				</td>
+				<td>
+					Categoria
+				</td>
+				<td>
+					Distribuidor
+				</td>
+				<td>
+					Adquisición
+				</td>
+				<td>
+					Bloquear
+				</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="mayus">
+					Salsa de tomate heinz 250 ml
+				</td>
+
+				<td>
+					Salsamentaria					
+				</td>
+				<td>
+					La Sabrosa
+				</td>
+				<td>
+					12					
+				</td>
+				<td>
+					<input type="checkbox">					
+				</td>
+			</tr>
+			<tr>
+				<td class="mayus">
+					Salsa de tomate heinz 250 ml
+				</td>
+
+				<td>
+					Salsamentaria					
+				</td>
+				<td>
+					La Sabrosa
+				</td>
+				<td>
+					12					
+				</td>
+				<td>
+					<input type="checkbox">					
+				</td>
+			</tr>
+			<tr>
+				<td class="mayus">
+					Salsa de tomate heinz 250 ml
+				</td>
+
+				<td>
+					Salsamentaria					
+				</td>
+				<td>
+					La Sabrosa
+				</td>
+				<td>
+					12					
+				</td>
+				<td>
+					<input type="checkbox">					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>Paginación</p>
+	</div>
+	
+</div>
+
 </section>
 	
 </body>

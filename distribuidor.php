@@ -30,12 +30,12 @@
 		</select>
 		<select required>
 			<option value="">Seleccionar Cat</option>
-			<option value="editar">Carnicos</option>
-			<option value="editar">Pollo</option>
-			<option value="editar">Pescaderia</option>
-			<option value="editar">Salsamentaria</option>
 			<option value="editar">Aseo industrial</option>
+			<option value="editar">Carnicos</option>
+			<option value="editar">Pescaderia</option>
+			<option value="editar">Pollo</option>
 			<option value="editar">Rancho y Licores</option>
+			<option value="editar">Salsamentaria</option>
 		</select>
 		<input type="text" placeholder="Nit o CC" required>
 		<input type="text" placeholder="Razón Social" required>

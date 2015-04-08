@@ -71,6 +71,10 @@ header
 	font-size: 18px;
   	padding-right: 6px;
 }
+.mayus
+{
+	text-transform: uppercase;
+}
 .principal
 {
 	width: 100%;
@@ -161,4 +165,57 @@ header
 .principal label
 {
 	color: #333;
+}
+.submenu
+{
+	background: #f2f2f2;
+	height:40px;
+	padding: 18px 18px 0px 18px;
+}
+.submenu a
+{
+	background: #FFD324;
+	border: none;
+	border-bottom: 3px solid #EFC418;
+	border-radius: 0.3em;
+	color: #333;
+	font-size: 14px;
+	text-align: center !important;
+	margin-left: 5px;
+	padding: 0.5em 0.8em 0.5em 0.8em;
+}
+.submenu a:hover
+{
+	background: #EFC418;
+}
+.tabla-pro
+{
+	padding: 0.8em 1.8em 0.8em 1.8em;
+}
+.tabla-pro table
+{
+	background: #fff;
+	width: 100%;
+
+}
+.tabla-pro table thead
+{
+	background: #a3070a;
+}
+.tabla-pro table thead tr
+{
+	color: #fff;
+}
+.tabla-pro table thead tr td
+{
+	padding: 0.5em;
+}
+.tabla-pro table tbody tr
+{
+	border:1px solid #ddd;
+}
+.tabla-pro table tbody tr td
+{
+	color: #333;
+	padding: 0.5em;
 }
