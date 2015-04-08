@@ -47,6 +47,7 @@
 
 <div class="productos">
 	<form class="forma">
+	<----Listar procutos---->
 	<p>Busqueda:</p>
 	<input type="text" placeholder="Nombre del Producto" required>
 	<select required>
