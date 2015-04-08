@@ -6,7 +6,7 @@
 <meta name="keywords" lang="es" content="">
 <meta name="robots" content="All">
 <meta name="description" lang="es" content="">
-<title>Productos | BIGMARKET.COM MAYORISTA</title>
+<title>Distribuidores | BIGMARKET.COM MAYORISTA</title>
 <link rel="stylesheet" href="css/normalize.css" />
 <link rel="stylesheet" href="css/stylesheetadmin.css" />
 <link rel="stylesheet" href="css/style2.css" />

@@ -6,7 +6,7 @@
 <meta name="keywords" lang="es" content="">
 <meta name="robots" content="All">
 <meta name="description" lang="es" content="">
-<title>Compradores | BIGMARKET.COM MAYORISTA</title>
+<title>Productos | BIGMARKET.COM MAYORISTA</title>
 <link rel="stylesheet" href="css/normalize.css" />
 <link rel="stylesheet" href="css/stylesheetadmin.css" />
 <link rel="stylesheet" href="css/style2.css" />
@@ -21,7 +21,7 @@
 	<div id="lado2"><?php include("menu2.html"); ?></div>
 </nav>
 <section class="principal">
-	<h2>Compradores</h2>
+	<h2>Distribuidores</h2>
 	<form class="forma">
 		<select required>
 			<option value="">Seleccionar</option>
@@ -35,6 +35,7 @@
 		<input type="text" placeholder="Dirección" required>
 		<input type="email" placeholder="Email" required>
 		<input type="text" placeholder="Contraseña" required>
+		<input type="file">
 		<label>Abrobado </label><input type="radio" value="abrobado"> <label>Pendiente </label><input type="radio" value="abrobado">
 		<br>
 		<input type="submit" value="Guardar">
