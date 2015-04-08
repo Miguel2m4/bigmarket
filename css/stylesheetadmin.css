@@ -219,3 +219,14 @@ header
 	color: #333;
 	padding: 0.5em;
 }
+
+
+
+
+@media screen and (max-width: 800px){
+.principal .forma
+{
+  padding: 0.8em 0.8em 0.8em 0.8em;
+  width: 100%;
+}
+}
