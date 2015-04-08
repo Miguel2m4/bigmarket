@@ -21,20 +21,21 @@
 	<div id="lado2"><?php include("menu2.html"); ?></div>
 </nav>
 <section class="principal">
-	<h2>Distribuidores</h2>
+	<h2>Productos</h2>
 	<form class="forma">
 		<select required>
 			<option value="">Seleccionar</option>
 			<option value="crear">Crear</option>
 			<option value="editar">Editar</option>
 		</select>
-		<input type="text" placeholder="Nit o CC" required>
-		<input type="text" placeholder="Razón Social" required>
-		<input type="text" placeholder="Telefono" required>
-		<input type="text" placeholder="Movil">
-		<input type="text" placeholder="Dirección" required>
-		<input type="email" placeholder="Email" required>
-		<input type="text" placeholder="Contraseña" required>
+		<input type="text" placeholder="Nombre del Producto" required>
+		<input type="text" placeholder="Caracteristica" required>
+		<input type="number" placeholder="Valor Unitario" required>
+		<select required>
+			<option value="">Seleccionar Distribuidor</option>
+			<option value="emp1">N Empresa 1</option>
+			<option value="emp2">N Empresa 2</option>
+		</select>
 		<input type="file">
 		<label>Abrobado </label><input type="radio" value="abrobado"> <label>Pendiente </label><input type="radio" value="abrobado">
 		<br>
