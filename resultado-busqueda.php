@@ -31,8 +31,24 @@
 <div class="carrito-terminar">
 </div>
 <div class="carrito">
-	<p>muestra lo quelleva el carrito</p>
-	<p>muestra lo quelleva el carrito</p>
+	<div class="item-despl">
+		<h2>Salsa Tartara - Heinz 250m</h2>
+		<p><input type="number" placeholder="Cant"> Paquete de 12 Unds</p>
+		<h3>$ 50.000</h3>
+		
+	</div>
+	<div class="item-despl">
+		<h2>Salsa Tartara - Heinz 250m</h2>
+		<p><input type="number" placeholder="Cant"> Paquete de 12 Unds</p>
+		<h3>$ 50.000</h3>
+		
+	</div>
+	<div class="item-despl">
+		<h2>Salsa Tartara - Heinz 250m</h2>
+		<p><input type="number" placeholder="Cant"> Paquete de 12 Unds</p>
+		<h3>$ 50.000</h3>
+		
+	</div>
 </div>
 
 <div id="lado-menu">

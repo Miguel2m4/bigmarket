@@ -111,6 +111,45 @@ footer hr
 	background: #f2f2f2;
 	display: none;
 }
+.carrito .item-despl
+{
+	border-bottom: 1px solid #CBCBCB;
+}
+.carrito .item-despl h2
+{
+	color: #A3070A;
+	font-family: "OpenSans";
+	font-weight: 300;
+	font-size: 17px;
+	margin: 0px 0px 0px 0px;
+	padding: 0.5em 0.5em 0em 1em
+}
+.carrito .item-despl h3
+{
+	color: #301b18;
+	font-family: "OpenSans";
+	font-weight: 100;
+	font-size: 19px;
+	margin: 0px 0px 0px 0px;
+	padding: 0.5em 0.5em 0.8em 1em
+}
+.carrito .item-despl p
+{
+	color: #301b18;
+	font-family: "OpenSans";
+	font-size: 13px;
+	font-weight: 300;
+	padding: 0.5em 0.5em 0em 1em
+}
+.carrito .item-despl input[type=number]
+{
+	height: 26px;
+  	width: 45px;
+ 	border: none;
+  	border: 1px solid #C8C4C4;
+  	border-radius: 0.3em;
+  	padding-left: 2px;
+}
 .carrito-terminar
 {
 	color: #fff;
