@@ -47,6 +47,10 @@ header
 	position: absolute;
 	width: 100%;
 }
+.fechas
+{
+	padding: 0em 0.5em 0.5em 1.8em;
+}
 .icon-histor:before {
 	content: "\f068";
 }
