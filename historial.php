@@ -42,6 +42,9 @@
 					Fecha de Pedido
 				</td>
 				<td>
+					Horario de Entrega
+				</td>
+				<td>
 					Ver Pedido
 				</td>
 			</tr>
@@ -57,6 +60,9 @@
 				</td>
 				<td>
 					03-02-2015
+				</td>
+				<td>
+					9 - 11: AM
 				</td>
 				<td>
 					<a href="">Pedido03022015</a>					
@@ -75,6 +81,9 @@
 					03-02-2015
 				</td>
 				<td>
+					9 - 11: AM
+				</td>
+				<td>
 					<a href="">Pedido03022015</a>					
 				</td>
 				
@@ -89,6 +98,9 @@
 				</td>
 				<td>
 					03-02-2015
+				</td>
+				<td>
+					3 - 6: PM
 				</td>
 				<td>
 					<a href="">Pedido03022015</a>					
