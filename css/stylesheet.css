@@ -105,11 +105,64 @@ footer hr
 	margin: 1.25rem 0 1.1875rem;
 	height: 0;
 }
+.carrito-respon
+{
+	display: none;
+}
 .carrito
 {
 	color: #fff;
 	background: #f2f2f2;
 	display: none;
+}
+.carrito-t table
+{
+	width: 100%;
+}
+.carrito-t table tbody tr 
+{
+	border-bottom: 1px solid #CBCBCB;
+}
+.carrito-t table tbody tr td h2
+{
+	color: #A3070A;
+	font-family: "OpenSans";
+	font-weight: 300;
+	font-size: 17px;
+	margin: 0px 0px 0px 0px;
+	padding: 0.5em 0.5em 0em 1em;
+}
+.carrito-t table tbody tr td p
+{
+	color: #301b18;
+	font-family: "OpenSans";
+	font-size: 13px;
+	font-weight: 300;
+	padding: 0.5em 0.5em 0.5em 1em;
+}
+.carrito-t table tbody tr td a
+{
+	background: #FFD324;
+	border-bottom: 3px solid #EFC418;
+	border-radius: 0.3em;
+	color: #333;
+	font-size: 14px;
+	text-align: center !important;
+	margin-left: 5px;
+	padding: 0.5em 0.8em 0.5em 0.8em;
+}
+.carrito-t table tbody tr td a:hover
+{
+	background: #EFC418;
+}
+.carrito-t table tbody tr td input[type="number"]
+{
+	height: 26px;
+	width: 45px;
+	border: none;
+	border: 1px solid #C8C4C4;
+	border-radius: 0.3em;
+	padding-left: 2px;
 }
 .carrito .item-despl
 {
@@ -631,7 +684,14 @@ footer hr
 	padding-right: 10px;
 }
 @media screen and (max-width: 800px){
-
+.carrito-t
+{
+	display: none;
+}
+.carrito-respon
+{
+	display: inline; 
+}
 header #lado1
 {
 	display: none;

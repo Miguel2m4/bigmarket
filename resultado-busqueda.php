@@ -26,11 +26,65 @@
 		<input type="text" placeholder="¿Qué deseas buscar?">
 	</form>		
 	</div>
-	<div id="sup-der"><span id="ubicacion-car"><a href=""><span class="icon-shopping-cart itemcarro"></span></a></span><span id="ped">Cant <span class="bgc">300</span></span><a href="" class="terminar-ped">Terminar Pedido</a></div>
+	<div id="sup-der"><span id="ubicacion-car"><a href="#" id="mostrar-carrito"><span class="icon-shopping-cart itemcarro"></span></a></span><span id="ped">Cant <span class="bgc">300</span></span><a href="" class="terminar-ped">Terminar Pedido</a></div>
 </div>
 <div class="carrito-terminar">
 </div>
 <div class="carrito">
+<div class="carrito-t">
+	<table>
+		<tbody>
+			<tr>
+				<td>
+				<h2>Salsa Tartara - Heinz 250m</h2>
+				<p>Paquete de 12 Unds</p></td>
+				<td>
+					<h2>Valor Unitario</h2>
+					<p>$ 50.000</p></td>
+				</td>
+				<td>
+					<input type="number" placeholder="Cant">
+				</td>
+				<td>
+					<a href="">Retirar</a>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+				<h2>Salsa Tartara - Heinz 250m</h2>
+				<p>Paquete de 12 Unds</p></td>
+				<td>
+					<h2>Valor Unitario</h2>
+					<p>$ 50.000</p></td>
+				</td>
+				<td>
+					<input type="number" placeholder="Cant">
+				</td>
+				<td>
+					<a href="">Retirar</a>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+				<h2>Salsa Tartara - Heinz 250m</h2>
+				<p>Paquete de 12 Unds</p></td>
+				<td>
+					<h2>Valor Unitario</h2>
+					<p>$ 50.000</p></td>
+				</td>
+				<td>
+					<input type="number" placeholder="Cant">
+				</td>
+				<td>
+					<a href="">Retirar</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div class="carrito-respon">
 	<div class="item-despl">
 		<h2>Salsa Tartara - Heinz 250m</h2>
 		<p><input type="number" placeholder="Cant"> Paquete de 12 Unds</p>
@@ -48,6 +102,7 @@
 		<p><input type="number" placeholder="Cant"> Paquete de 12 Unds</p>
 		<h3>$ 50.000</h3>
 		
+	</div>
 	</div>
 </div>
 
@@ -153,6 +208,7 @@
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="js/script-menu.js"></script>
-
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/menumostrar.js"></script>
 </body>
 </html>
