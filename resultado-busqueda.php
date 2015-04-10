@@ -81,6 +81,23 @@
 					<a href="">Retirar</a>
 				</td>
 			</tr>
+
+			<tr>
+				<td>
+				<h2>Salsa Tartara - Heinz 250m</h2>
+				<p>Paquete de 12 Unds</p></td>
+				<td>
+					<h2>Valor Unitario</h2>
+					<p>$ 50.000</p></td>
+				</td>
+				<td>
+					<input type="number" placeholder="Cant">
+				</td>
+				<td>
+					<a href="">Retirar</a>
+				</td>
+			</tr>
+
 		</tbody>
 	</table>
 </div>
@@ -89,18 +106,26 @@
 		<h2>Salsa Tartara - Heinz 250m</h2>
 		<p><input type="number" placeholder="Cant"> Paquete de 12 Unds</p>
 		<h3>$ 50.000</h3>
+		<a href="">Retirar</a>		
+	</div>
+	<div class="item-despl">
+		<h2>Salsa Tartara - Heinz 250m</h2>
+		<p><input type="number" placeholder="Cant"> Paquete de 12 Unds</p>
+		<h3>$ 50.000</h3>
+		<a href="">Retirar</a>
 		
 	</div>
 	<div class="item-despl">
 		<h2>Salsa Tartara - Heinz 250m</h2>
 		<p><input type="number" placeholder="Cant"> Paquete de 12 Unds</p>
 		<h3>$ 50.000</h3>
-		
+		<a href="">Retirar</a>
 	</div>
 	<div class="item-despl">
 		<h2>Salsa Tartara - Heinz 250m</h2>
 		<p><input type="number" placeholder="Cant"> Paquete de 12 Unds</p>
 		<h3>$ 50.000</h3>
+		<a href="">Retirar</a>
 		
 	</div>
 	</div>

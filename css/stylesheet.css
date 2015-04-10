@@ -167,6 +167,7 @@ footer hr
 .carrito .item-despl
 {
 	border-bottom: 1px solid #CBCBCB;
+	padding-bottom:1em;
 }
 .carrito .item-despl h2
 {
@@ -202,6 +203,17 @@ footer hr
   	border: 1px solid #C8C4C4;
   	border-radius: 0.3em;
   	padding-left: 2px;
+}
+.carrito .item-despl a
+{
+	background: #FFD324;
+	border-bottom: 3px solid #EFC418;
+	border-radius: 0.3em;
+	color: #333;
+	font-size: 14px;
+	text-align: center !important;
+	margin-left: 5px;
+	padding: 0.5em 0.8em 0.5em 0.8em;
 }
 .carrito-terminar
 {
