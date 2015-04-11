@@ -33,6 +33,29 @@
 <div class="carrito">
 <div class="carrito-t">
 	<table>
+	<thead>
+		<tr>
+			<td>
+				<h2>Numero de Items</h2>
+				<p>( 4 )</p>
+			</td>
+			<td>
+				<h2>Subtotal</h2>
+				<p>$ 50.000</p>
+			</td>
+			<td>
+				<h2>Valor Servicio</h2>
+				<p>$ 10.000</p>
+			</td>
+			<td>
+				<h2>Total</h2>
+				<p>$ 60.000</p>
+			</td>
+			<td>
+				<a href="">Eliminar Compra</a>
+			</td>
+		</tr>
+	</thead>
 		<tbody>
 			<tr>
 				<td>
