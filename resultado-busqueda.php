@@ -43,20 +43,8 @@
 					<p>$ 50.000</p></td>
 				</td>
 				<td>
-					<input type="number" placeholder="Cant">
-				</td>
-				<td>
-					<a href="">Retirar</a>
-				</td>
-			</tr>
-
-			<tr>
-				<td>
-				<h2>Salsa Tartara - Heinz 250m</h2>
-				<p>Paquete de 12 Unds</p></td>
-				<td>
-					<h2>Valor Unitario</h2>
-					<p>$ 50.000</p></td>
+					<h2>Valor Total</h2>
+					<p>50.000</p>
 				</td>
 				<td>
 					<input type="number" placeholder="Cant">
@@ -75,6 +63,10 @@
 					<p>$ 50.000</p></td>
 				</td>
 				<td>
+					<h2>Valor Total</h2>
+					<p>50.000</p>
+				</td>
+				<td>
 					<input type="number" placeholder="Cant">
 				</td>
 				<td>
@@ -89,6 +81,30 @@
 				<td>
 					<h2>Valor Unitario</h2>
 					<p>$ 50.000</p></td>
+				</td>
+				<td>
+					<h2>Valor Total</h2>
+					<p>50.000</p>
+				</td>
+				<td>
+					<input type="number" placeholder="Cant">
+				</td>
+				<td>
+					<a href="">Retirar</a>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+				<h2>Salsa Tartara - Heinz 250m</h2>
+				<p>Paquete de 12 Unds</p></td>
+				<td>
+					<h2>Valor Unitario</h2>
+					<p>$ 50.000</p></td>
+				</td>
+				<td>
+					<h2>Valor Total</h2>
+					<p>50.000</p>
 				</td>
 				<td>
 					<input type="number" placeholder="Cant">
